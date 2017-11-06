@@ -1,0 +1,30 @@
+.container {
+    background-color: aqua;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(5, 19.6vh);
+}
+
+
+.subDisplay {
+    display: grid;
+    grid-area: clock;
+    background-color: red;
+    grid-gap: 1rem;
+}
+
+.container div:nth-child(1){
+    grid-column: 2 / 6;
+    grid-row: 2 / 3;
+}
+
+.container div:nth-child(2){
+    grid-column: 2 / 6;
+    grid-row: 3 / 4;
+}
+
+.container div:nth-child(3){
+    grid-column: 2 / 6;
+    grid-row: 4 / 5;
+}
+
