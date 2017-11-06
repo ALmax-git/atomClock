@@ -3,6 +3,7 @@
 var dateDisplay = document.getElementById("date");
 var clockDisplay = document.getElementById("clock");
 var locationDisplay = document.getElementById("location");
+//Google maps monokutho Key "AIzaSyDo4lTcOwynRwtoC3ASbGKBgaOeCw_nKts"
 
 var months = [
     "january", "febraury", "march", "april", "may", "june", "july", "august", "september", "october",
